@@ -32,7 +32,7 @@ data = input("do you want to continue? y/n\n")
 if(data != "y"):
     quit()
 
-add_to_startup()
+add_to_startup(os.getcwd()+"\\TempFolderScript.py")
 print("added script to startup folder")
 
 
